@@ -66,3 +66,65 @@ Deployment
  ** hero-slider :  For the banner slider on the homepage.
 
  ** react modal video :  For the Video Section
+
+
+Here's a concise guide for running a project created with React Router DOM and Firebase:
+
+```markdown
+# Project Setup Guide
+
+Follow these steps to set up and run the project on your local machine.
+
+## Prerequisites
+
+Ensure you have:
+- **Node.js** installed
+- A **Firebase** project set up
+
+## Setup Instructions
+
+### 1. Clone the Repository
+
+```bash
+git clone <repository-url>
+cd <project-directory>
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure Firebase
+
+- Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
+- Obtain the Firebase configuration object from your project settings.
+- Create a `.env` file in the project root and add your Firebase configuration:
+
+```env
+REACT_APP_FIREBASE_API_KEY=your-api-key
+REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
+REACT_APP_FIREBASE_PROJECT_ID=your-project-id
+REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+REACT_APP_FIREBASE_APP_ID=your-app-id
+```
+
+### 4. Run the Application
+
+```bash
+npm start
+```
+
+The application will open in your default browser at `http://localhost:3000`.
+
+## Additional Notes
+
+- **React Router DOM** is used for client-side routing.
+- **Firebase** handles authentication and other backend services.
+
+For any issues or support, contact [Your Name](mailto:your-email@example.com).
+``` 
+
+This guide provides a clear, step-by-step approach to running your project.
