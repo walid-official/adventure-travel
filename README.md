@@ -103,12 +103,12 @@ npm install
 - Create a `.env` file in the project root and add your Firebase configuration:
 
 ```env
-REACT_APP_FIREBASE_API_KEY=your-api-key
-REACT_APP_FIREBASE_AUTH_DOMAIN=your-auth-domain
-REACT_APP_FIREBASE_PROJECT_ID=your-project-id
-REACT_APP_FIREBASE_STORAGE_BUCKET=your-storage-bucket
-REACT_APP_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
-REACT_APP_FIREBASE_APP_ID=your-app-id
+VITE_API_KEY=your-api-key
+VITE_AUTH_DOMAIN=your-auth-domain
+VITE_PROJECT_ID=your-project-id
+VITE_STORAGE_BUCKET=your-storage-bucket
+VITE_MESSAGING_SENDER_ID=your-sender-id
+VITE_APP_ID=your-app-id
 ```
 
 ### 4. Run the Application
@@ -124,7 +124,7 @@ The application will open in your default browser at `http://localhost:3000`.
 - **React Router DOM** is used for client-side routing.
 - **Firebase** handles authentication and other backend services.
 
-For any issues or support, contact [Your Name](mailto:your-email@example.com).
+For any issues or support, contact [Walid Hasan](walid.official8@gmail.com).
 ``` 
 
 This guide provides a clear, step-by-step approach to running your project.
